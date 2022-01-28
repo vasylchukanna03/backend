@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "rest API, course ",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "nodemon index.js"
   },
@@ -17,7 +18,9 @@
   },
   "homepage": "https://github.com/vasylchukanna03/backend#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.17.2",
+    "mongoose": "^6.1.8",
     "nodemon": "^2.0.15"
   }
 }
