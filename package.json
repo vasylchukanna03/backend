@@ -1,0 +1,23 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "rest API, course ",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasylchukanna03/backend.git"
+  },
+  "author": "Anna Vasylchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasylchukanna03/backend/issues"
+  },
+  "homepage": "https://github.com/vasylchukanna03/backend#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
+  }
+}
